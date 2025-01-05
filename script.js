@@ -18,8 +18,8 @@ comecarBtn.addEventListener("click", function() {
 var player1Name = localStorage.getItem("player1Name");
 var player2Name = localStorage.getItem("player2Name");
 
-document.querySelector(".player1NameGame").textContent= "Player name: " + player1Name;
-document.querySelector(".player2NameGame").textContent= "Player name: " + player2Name;
+document.querySelector(".player1NameGame").innerHTML= "Player 1 <br> <strong>"+ player1Name+ "</strong>";
+document.querySelector(".player2NameGame").innerHTML= "Player 2 <br> <strong>"+ player2Name+ "</strong>";
 
 // inicio do jogo
 
@@ -51,7 +51,7 @@ function playGame(){
     } else if (randomNumber2 > randomNumber1){
         document.querySelector(".winnerMessage").innerHTML = player2Name + " Wins! 🚩";
     } else {
-        document.querySelector("h1").innerHTML = "Draw!";
+        document.querySelector(".winnerMessage").innerHTML = "Draw!";
       }
 }
 
