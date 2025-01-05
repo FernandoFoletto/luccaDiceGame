@@ -6,7 +6,7 @@ But here’s the fun part: when my nephew enters his name (Lucca), the dice roll
 
 I built this game using some good old-fashioned vanilla CSS, JavaScript, and HTML.
 
-Enjoy, and may the dice roll in your favor!
+Enjoy, and may the dice roll in your favor! (Unless your name is Lucca)
 
 ---
 
