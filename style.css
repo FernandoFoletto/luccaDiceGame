@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root{
+--yellow: hsl(42, 75%, 55%);
+--blue: hsl(227, 88%, 63%);
+--white: hsl(0, 0%, 100%);
+--gray500: hsl(0, 0%, 42%);
+--gray950: hsl(0, 0%, 7%);
+}
+
+html{
+margin: 0;
+padding: 0;
+}
+
+.winnerMessage{
+    font-size: 42px;
+}
+
+
+body{
+    background-color: var(--yellow);
+    font-family: "Figtree", serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: var(--white);
+    max-width: 384px;
+    max-height: 522px;
+    padding: 24px;
+    border: 1px solid var(--gray950);
+    box-shadow: 10px 10px 0;
+    border-radius: 20px;
+}
+
+
+.diceDiv{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 2rem 0; 
+}
+
+.dice img {
+    max-width: 100px; 
+    max-height: 80px;
+    width: auto; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.dice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+}
+
+h2{
+    font-weight: 400;
+    line-height: 150%;
+}
+
+form{
+    margin: 2rem 0;
+}
+
+.playerdiv p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.letsSettle{
+    font-size: 1.5rem;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+
+button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem; 
+    font-size: 1rem; 
+    font-weight: 600; 
+    color: var(--white); 
+    background: linear-gradient(135deg, var(--blue) 0%, var(--yellow) 100%); 
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    text-align: center; 
+}
+
+button:hover {
+    background: linear-gradient(135deg, var(--blue) 0%, var(--gray950) 100%); 
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+button:active {
+    transform: scale(0.95); 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+
+button a {
+    text-decoration: none; 
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button a:hover {
+    color: var(--yellow); 
+}
+
+
+@media (max-width: 400px) {
+    button {
+        font-size: 0.9rem; 
+        padding: 0.6rem 1rem; 
+    }
+}
