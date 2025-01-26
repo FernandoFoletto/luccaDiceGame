@@ -8,6 +8,8 @@ I built this game using some good old-fashioned vanilla CSS, JavaScript, and HTM
 
 Enjoy, and may the dice roll in your favor! (Unless your name is Lucca)
 
+- Live Site URL: https://fernandofoletto.github.io/luccaDiceGame/
+
 ---
 
 **Author**: Fernando Foletto
